@@ -1,2 +1,10 @@
+# General
 *.json
 *.txt
+*.exe
+
+# Java specific
+
+# Python specfic
+
+# C specific
