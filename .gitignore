@@ -3,6 +3,7 @@
 *.txt
 *.exe
 *.csv
+*.bat
 
 # Java specific
 
