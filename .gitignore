@@ -2,6 +2,7 @@
 *.json
 *.txt
 *.exe
+*.csv
 
 # Java specific
 
