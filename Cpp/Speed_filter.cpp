@@ -11,12 +11,18 @@ using namespace std;
 int main()
 {
   string word;
+  long count = 0;
   regex r("[?]{2}[:]{1}\\d+[.]{1}\\d*");
   while((cin >> word, word != "Exit"))
   {
     if(regex_match(word, r))
     {
-      cout << word << ",\n";
+      count++;
+      if(count%2)
+      {
+        word = word.substr(3);
+        cout << word << ",\n";
+      }
     }
   }
   return 0;
