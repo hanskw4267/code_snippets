@@ -26,7 +26,6 @@ int main()
         cout << word << ",\n";
       }
     }
-    cout << "testing,\n";
   }
   return 0;
 }
