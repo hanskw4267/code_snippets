@@ -1,6 +1,7 @@
 /* Speed_filter.cpp
   Filter to extract the speed mesurements taken by the speed monitor 
-  sensor on the referee system and outputing the matched meaasurements to stdout 
+  sensor on the referee system and outputing the matched measurements to file
+  stated.
 */
 #include<fstream>
 #include<regex>
