@@ -4,6 +4,7 @@
 *.exe
 *.csv
 *.zip
+*.in
 
 # Java specific
 
